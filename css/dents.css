@@ -1,0 +1,301 @@
+/* Dents Section */
+
+.dents__wrapper {
+ width: 100%;
+ height: auto;
+ border-top: 1px solid var(--catawba);
+ margin: 1rem auto;
+ font-family: var(--raleway);
+ background-color: var(--burgundy);
+ color: var(--alabaster);
+}
+
+.dents__header {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.dents__company {
+ width: 100%;
+ max-width: 50rem;
+ padding: 0;
+ font-family: var(--martel);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.dents__logo {
+ width: 10rem;
+ margin: 2rem;
+}
+
+.dents__title h1 {
+ font-size: 6rem;
+ padding: 2rem 0 0 0;
+}
+
+.dents__title h3 {
+ margin-top: -3rem;
+ font-size: 2rem;
+ text-align: center;
+}
+
+.dents__address {
+ padding: 2rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.dents__address h1 {
+ font-size: 4rem;
+ margin-left: 4rem;
+}
+
+.dents__address h3 {
+ font-family: var(--martel);
+ font-size: 3rem;
+ margin-bottom: 1rem;
+}
+
+.address__underline {
+ content: "";
+ width: 90%;
+ height: 7px;
+ background: var(--alabaster);
+ margin-top: -2rem;
+}
+
+@media screen and (max-width: 1200px) {
+ .dents__address {
+  padding: 1rem;
+  text-align: center;
+ }
+
+ .dents__address h3 {
+  font-size: 2rem;
+  padding: 1rem;
+ }
+}
+
+/* Dents Sale */
+
+.dents__sale {
+ width: 100%;
+ max-width: 120rem;
+ position: relative;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+ .dents__sale {
+  flex-direction: column;
+  padding-bottom: 1rem;
+ }
+}
+
+.dents__sale__left {
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-left: 2rem;
+}
+
+.dents__sale__left::after {
+ content: "";
+ background-color: var(--alabaster);
+ position: absolute;
+ width: 7px;
+ height: 45rem;
+ top: 10px;
+ left: 50%;
+ display: block;
+}
+
+.dents__sale__head {
+ font-size: 8rem;
+}
+
+.dents__price {
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ margin-top: -7rem;
+}
+
+.dents__number {
+ font-size: 15rem;
+}
+
+.dents__percent {
+ padding: 3rem;
+ margin-top: 4rem;
+}
+
+.dents__percent h2 {
+ font-size: 10rem;
+ margin-right: 5rem;
+}
+
+.dents__sale__sub {
+ font-family: var(--martel);
+ font-size: 3.5rem;
+}
+
+/* Dents Sale Media */
+
+@media screen and (max-width: 1200px) {
+ .dents__sale__left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.5rem;
+ }
+
+ .dents__sale__left::after {
+  display: none;
+ }
+
+ .dents__sale__underline {
+  content: "";
+  width: 75%;
+  height: 7px;
+  background: var(--alabaster);
+  margin-top: 2rem;
+ }
+
+ .dents__sale__head {
+  font-size: 6rem;
+ }
+
+ .dents__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -4rem;
+  margin-left: 6rem;
+ }
+
+ .dents__number {
+  font-size: 8rem;
+ }
+
+ .dents__percent {
+  padding: 1rem;
+  margin-top: 3rem;
+ }
+
+ .dents__percent h2 {
+  font-size: 6rem;
+  margin-right: 5rem;
+ }
+
+ .dents__sale__sub {
+  font-family: var(--martel);
+  font-size: 2rem;
+ }
+}
+
+/* Winter Sale */
+
+.dents__sale__right {
+ width: 50%;
+ height: auto;
+ order: 2;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.winter__heading {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.winter__heading h1 {
+ font-size: 15rem;
+ margin-top: -4rem;
+}
+
+.winter__heading h3 {
+ font-size: 8rem;
+}
+
+.winter__heading h2 {
+ font-size: 12rem;
+ text-decoration: underline;
+}
+
+.winter__heading h4 {
+ font-size: 6rem;
+}
+
+/* Dents Winter */
+
+@media screen and (max-width: 1200px) {
+ .dents__sale__right {
+  width: 100%;
+  height: auto;
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .winter__heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .winter__heading h1 {
+  font-size: 12rem;
+  margin-top: 0;
+ }
+
+ .winter__heading h3 {
+  font-size: 6rem;
+ }
+
+ .winter__heading h2 {
+  font-size: 9rem;
+  text-decoration: underline;
+ }
+
+ .winter__heading h4 {
+  font-size: 6rem;
+ }
+}
+
+/* Dents Hero */
+
+.dents__hero img {
+ height: 60vh;
+}
+
+.dents__footer {
+ width: 100%;
+ padding: 1rem;
+ font-family: var(--martel);
+ text-align: center;
+}
+
+.dents__footer h3 {
+ font-size: 3rem;
+}
+
+.dents__link {
+ margin-top: -3rem;
+}
