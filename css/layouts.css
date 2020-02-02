@@ -104,9 +104,10 @@ p:first-child:first-letter {
  width: 100%;
  max-width: 30rem;
  height: auto;
- padding-bottom: 1rem;
+ padding-bottom: 1.5rem;
  margin: 0 auto;
 }
+
 /* Article One Media Queries */
 
 @media screen and (max-width: 920px) {
@@ -149,14 +150,31 @@ p:first-child:first-letter {
 }
 
 @media screen and (max-width: 700px) {
+
+ #layout__one {
+  padding: 0;
+ }
+
+ .container {
+  padding: .5rem;
+ }
+
  .article__cols {
   grid-template-columns: repeat(1fr, auto);
   grid-template-rows: auto;
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   grid-template-areas:
    "col-1"
    "col-2"
    "col-3";
+ }
+
+ .article__center__img {
+  width: 100%;
+  max-width: 25rem;
+  height: auto;
+  padding-bottom: 1.5rem;
+  margin: 0 auto;
  }
 
  .roundup h1::after {

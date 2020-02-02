@@ -83,6 +83,17 @@
  }
 }
 
+@media screen and (max-width: 490px) {
+
+ .dents__logo {
+  display: none;
+ }
+
+ .dents__address h1 {
+  margin-left: 0;
+ }
+}
+
 /* Dents Sale */
 
 .dents__sale {
@@ -244,6 +255,7 @@
 /* Dents Winter */
 
 @media screen and (max-width: 1200px) {
+ 
  .dents__sale__right {
   width: 100%;
   height: auto;
@@ -277,6 +289,28 @@
  .winter__heading h4 {
   font-size: 6rem;
  }
+}
+
+@media screen and (max-width: 490px) {
+
+ .winter__heading h1 {
+  font-size: 12rem;
+  margin-top: 0;
+ }
+
+ .winter__heading h3 {
+  font-size: 6rem;
+ }
+
+ .winter__heading h2 {
+  font-size: 9rem;
+  text-decoration: underline;
+ }
+
+ .winter__heading h4 {
+  font-size: 4rem;
+ }
+
 }
 
 /* Dents Hero */

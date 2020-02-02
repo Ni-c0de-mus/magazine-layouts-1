@@ -58,6 +58,7 @@
  --light-blue: #0090d9;
  --green: #00b298;
  --black: #000;
+ --nt-green: #273C2D;
 }
 
 /* Universal Styles */
@@ -198,11 +199,9 @@ nav {
 #hero {
  width: 100%;
  height: 80vh;
- background: linear-gradient(
-   135deg,
+ background: linear-gradient(135deg,
    rgba(0, 0, 0, 0.3) 0%,
-   rgba(0, 0, 0, 0.7) 100%
-  ),
+   rgba(0, 0, 0, 0.7) 100%),
   url("../img/boardwalk.jpeg") center no-repeat;
  background-size: cover;
  position: relative;
