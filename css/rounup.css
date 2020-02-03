@@ -114,6 +114,7 @@ p:first-child:first-letter {
  #layout__one {
   padding: 0.5rem;
  }
+
  .article__cols {
   grid-template-columns: repeat(auto-fit, minmax(1fr, auto));
   grid-template-rows: auto auto;
@@ -122,6 +123,7 @@ p:first-child:first-letter {
    "col-1 col-2"
    "col-3 col-3";
  }
+
  .layout__one__heading {
   border: none;
  }
@@ -171,7 +173,7 @@ p:first-child:first-letter {
 
  .article__center__img {
   width: 100%;
-  max-width: 25rem;
+  max-width: 50rem;
   height: auto;
   padding-bottom: 1.5rem;
   margin: 0 auto;
