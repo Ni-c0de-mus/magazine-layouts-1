@@ -75,7 +75,7 @@
  }
 
  .content__lay {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-style: italic;
   margin-top: 4rem;
  }
@@ -98,7 +98,7 @@
  }
 
  .learn__lay {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 1.5rem;
   max-width: 45rem;
  }
@@ -117,8 +117,8 @@
 @media (max-width: 950px) {
 
  .message__lay h1 {
-  font-size: 6rem;
-  letter-spacing: .2rem;
+  font-size: 4rem;
+  letter-spacing: .1rem;
   padding: 1rem 0;
  }
 
@@ -127,18 +127,19 @@
  }
 
  .learn__lay {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-top: 1.5rem;
   max-width: 45rem;
  }
 
  .content__lay {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style: italic;
   margin-top: 4rem;
  }
 
  .link__laycock {
+  font-size: 1.6rem;
   margin-top: 6rem;
  }
 }
